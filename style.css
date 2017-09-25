@@ -1,0 +1,233 @@
+/* General */
+* {
+  box-sizing: border-box;
+}
+
+#nav {
+  /*border: 1px solid red;*/
+  background-color: #ff6600;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+#content {
+  /* border: 1px solid blue; */
+  position: relative;
+  top: 74px;
+  padding: 15px;
+
+}
+
+.container {
+  /* border: 1px solid #ccc; */
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+  margin-bottom: 74px;
+}
+
+#content > .container > div {
+  padding: 74px 0;
+}
+
+hr.bar {
+  border: 2px solid #ff6600;
+  width: 80px;
+}
+
+.menu {
+  float: right;
+}
+
+h1 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+  color: #666;
+  padding: 3px;
+}
+
+#about h1 {
+  margin-bottom: 0;
+  text-align: left;
+}
+
+#about, #my-work, #contact-me #{
+  /*border: 1px solid yellow;*/
+}
+
+
+.menu li {
+  display: inline-block;
+  width: 150px;
+  padding: 10px 0px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  list-style-type: none;
+  text-align: center;
+  background-color: #ff6600;
+  color: #fff;
+}
+
+a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu li:hover {
+  border: 1px solid #ff6600;
+  background-color: #fff;
+}
+
+.menu li:hover a {
+  color: #ff6600;
+  font-weight: 800;
+}
+
+
+/* about me */
+#my-avatar {
+  /*border: 1px solid red;  /* 標示用，排版完記得拿掉 */
+  float: left;
+  margin-top: 20px;
+}
+
+#my-avatar img {
+  width: 150px;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+table {
+  font-size: 14px;
+  text-align: left;
+}
+
+tr {
+  padding-bottom: 3px;
+}
+
+th, td {
+  padding-bottom: 3px;
+  vertical-align: top;
+}
+
+td {
+  color: #666;
+  padding-left: 15px;
+}
+
+hr {
+  border: 0.5px solid #eee;
+}
+
+
+/* my work */
+.item {
+  /* border: 1px solid red; /* 標示用，排版完記得拿掉 */
+  display: inline-block;
+  position: relative;
+  max-width: 30%;
+  margin-bottom: 10px;
+}
+
+.item img {
+  width: 100%;
+}
+
+.item-info {
+  /*border: 1px solid red; /* 標示用，排版完記得拿掉 */
+  background-color: rgba(255,255,255,.8);   /* 背景半透明 */
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  text-align: center;
+  padding: 25px 10px;
+
+  display: none;
+}
+
+.item:hover .item-info {
+  display: block;
+}
+
+/* Contact me */
+#contact-me {
+  /*border: 1px solid green; /* 標示用，排版完記得拿掉 */
+  margin-top: 74px;
+}
+
+form.contact-form {
+  /*border: 1px solid red; /* 標示用，排版完記得拿掉 */
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form-row {
+  margin-bottom: 15px;
+}
+
+.form-row input, .form-row textarea {
+  border: 1px solid #D6D9DC;
+  border-radius: 3px;
+  width: 100%;
+  padding: 7px;
+}
+
+.form-row textarea {
+  resize: none;
+  height: 4em;
+}
+
+.form-row button {
+  border: none;
+  border-radius: 3px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.form-row button[type="submit"] {
+  background-color: #5995DA;
+  color: #FFFFFF;
+}
+
+.form-row button:hover {
+  background-color: #76AEED;
+}
+
+.form-row button:active {
+  background-color: #407FC7;
+}
+
+#my-work-gallery {
+    margin: 10px;
+    text-align: center;
+}
+
+/* General */
+.container {
+  /*border: 1px solid black;  /* 標示用，完成排版後刪除*/
+  width: 800px;
+  margin: 0 auto;
+}
+
+
+
